@@ -1,6 +1,6 @@
 # git-playground
 
-Learning and exploring Git.
+📚 Learning and exploring Git.
 
 ---
 
@@ -16,9 +16,11 @@ because I have an O'Reilly subscription.
 ## Submodules
 
 I would like to learn Git (submodules)[https://git-scm.com/book/en/v2/Git-Tools-Submodules]. So, let's pick a project to
-add to our Git repo as a submodule. Let's pick my own repo <https://github.com/dgroomes/dgroomes>. I'll add this by
-executing the command:
+add to our Git repo as a submodule. Let's pick my own repo <https://github.com/dgroomes/dgroomes>. I added this
+submodule by executing the command:
 
 ```
 git submodule add https://github.com/dgroomes/dgroomes
 ``` 
+
+The repository is now under the directory `dgroomes/`.
