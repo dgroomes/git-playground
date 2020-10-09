@@ -24,3 +24,7 @@ git submodule add https://github.com/dgroomes/dgroomes
 ``` 
 
 The repository is now under the directory `dgroomes/`.
+
+Annoyingly, when I do a `git pull` in this repository, it will pull the latest changes of the submodules. I don't want
+to update my submodules when I do a `git pull` I only want to update my own clone of `git-playground` repository. Is
+there a work around?
